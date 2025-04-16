@@ -20,7 +20,7 @@
     "react-vertical-timeline-component": "^3.5.3",
     "styled-components": "^5.3.0",
     "styled-normalize": "^8.0.7",
-    "three": "^0.135.0",
+    "three": "^0.175.0",
     "typed.js": "^2.1.0"
   }
 }
