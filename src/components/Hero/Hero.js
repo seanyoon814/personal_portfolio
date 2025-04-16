@@ -10,7 +10,7 @@ const Hero = () => {
 
   useEffect(() => {
     const typed = new Typed(typedEl.current, {
-      strings: ['Programmer', 'Problem Solver', 'Lifelong Learner'],
+      strings: ['Developer', 'Problem Solver', 'Lifelong Learner'],
       typeSpeed: 50,
       backSpeed: 30,
       loop: true,
