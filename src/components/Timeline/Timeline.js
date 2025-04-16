@@ -12,7 +12,7 @@ import {
   IconStyle,
   ContentStyle,
   GlobalTimelineStyles
-} from './TimeLineStyles';
+} from './TimelineStyles';
 
 import 'react-vertical-timeline-component/style.min.css';
 import { Section, SectionTitle, SectionDivider, SectionText } from '../../styles/GlobalComponents';
