@@ -120,7 +120,7 @@ export const PROJECTS = [
     description: "This application combines SFU course scheduling, Rate My Professor, SFU clubs, and Google Maps API to create a centralized hub for students to access common resources in one location.",
       image: '/images/sfu.png',
       tags: ['HTML', 'CSS', 'Node.js Express', 'PostgreSQL'],
-    visit: 'https://github.com/seanyoon814?tab=repositories',
+    visit: 'https://github.com/seanyoon814/SFUnited',
     id: 2,
   },
   {
