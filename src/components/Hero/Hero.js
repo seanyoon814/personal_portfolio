@@ -22,7 +22,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <Section row nopadding style={{ width: '140%' }}>
+    <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
           Hi, I'm Sean Yoon<br />
