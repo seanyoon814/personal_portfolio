@@ -43,10 +43,9 @@ export const Div2 = styled.ul`
   align-items: center;
   list-style: none;
   gap: 1rem;
-
   @media ${(props) => props.theme.breakpoints.sm} {
-    flex-wrap: wrap;
-    justify-content: center;
+    background-color: red !important;
+    display: none !important;
   }
 `;
 export const Div3 = styled.div`
