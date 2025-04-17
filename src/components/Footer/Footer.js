@@ -53,6 +53,7 @@ const Footer = () => {
         >
         <FormWrapper>
           <Form ref={formRef} onSubmit={sendEmail}>
+            <input type="hidden" name="time" value={new Date().toLocaleString()}/>
             <Label>Your Name</Label>
             <Input type="text" name="from_name" placeholder="What is your name?" required />
             <Label>Your Email</Label>
