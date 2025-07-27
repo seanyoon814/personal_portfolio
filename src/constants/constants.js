@@ -5,7 +5,8 @@ export const WORK_EXPERIENCE = [
     date: 'May 2025 - Present',
     description:
     [
-      'TBA - Have not started yet :)'
+      'Set up a local AWS SQS environment using LocalStack, Docker, and Terraform for 3 development teams by enabling local testing of ASP.NET services without AWS dependencies, reducing development time by 20%',
+      'Migrated 10+ ASP.NET apps from legacy AKM encryption to AWS KMS for improved security; confirmed correctness through unit tests, step-through debugging, and MySQL-based data validation'
     ],
     icon: (
       <img
@@ -131,12 +132,4 @@ export const PROJECTS = [
     visit: 'https://github.com/propigftw/phishing_detector',
     id: 3,
   }
-];
-
-export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
 ];
