@@ -1,8 +1,30 @@
 export const WORK_EXPERIENCE = [
   {
+    title: 'Software Engineer I',
+    subtitle: 'Trulioo',
+    date: 'Jan 2026 - Present',
+    description:
+    [
+      'Currently working here! Most of my development revolves around .NET 8, AWS, and MySQL.',
+    ],
+    icon: (
+      <img
+        src="/images/trulioo.png"
+        alt="Trulioo"
+        style={{
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',     
+          padding: '0',          
+          borderRadius: '50%',    
+        }}
+      />
+    ),
+  },
+  {
     title: 'Software Engineer Co-op',
     subtitle: 'Trulioo',
-    date: 'May 2025 - Present',
+    date: 'May 2025 - Jan 2026',
     description:
     [
       'Set up a local AWS SQS environment using LocalStack, Docker, and Terraform for 3 development teams by enabling local testing of ASP.NET services without AWS dependencies, reducing development time by 20%',
